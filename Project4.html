@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Number Game</title>
+</head>
+
+<body>
+    <div class="container" style="display: flex;justify-content:center; align-items:center; flex-direction:column">
+        <h1 style="background-color: black;color:white; padding:15px">Guessing Number Game</h1>
+        <p>Guess a number between 1 and 100</p>
+        <p>You have 10 attempts to guess the right answer.</p>
+        <form action="">
+            <p style="font-size: xx-large;">Guess a NUMBER</p>
+            <input type="text" id="guessField" class="guessField" placeholder="Enter your guessing number">
+            <input type="submit" value="Submit guess" class="guessSubmit" id="subt" style="margin-top: 10px;padding: 10px;border-radius:15px;background-color:black;color:whitesmoke;cursor:pointer">
+    </div>
+    </form>
+    <div class="resultParas" style="display: flex;justify-content:center; align-items:center; flex-direction:column">
+        <p>Previous guesses: <span class="guesses"></span></p>
+        <p>Number of Guesses remaining: <span class="lastResult">10</span></p>
+        <p class="lowOrHi"></p>
+
+    </div>
+
+</body>
+<script src=" p4.js "></script>
+
+</html>
